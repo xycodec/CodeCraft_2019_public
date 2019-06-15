@@ -284,10 +284,10 @@ public class graph {
 				}
 			}
 		}
-		for(int i=1;i<head.size();++i) {
-//			System.out.printf("cross_%d\tin:%d,out:%d\n",head.get(i).cross_id,
-//					id_to_degree_in.get(head.get(i).cross_id),id_to_degree_out.get(head.get(i).cross_id));
-		}
+// 		for(int i=1;i<head.size();++i) {
+// 			System.out.printf("cross_%d\tin:%d,out:%d\n",head.get(i).cross_id,
+// 					id_to_degree_in.get(head.get(i).cross_id),id_to_degree_out.get(head.get(i).cross_id));
+// 		}
 		System.out.println();
 		//根据入度与出度计算每条链路的degree
 		double max_degree=-1;
