@@ -1,5 +1,5 @@
 package com.huawei.utils;
 
 public class Constant {
-	public static final int candidate_path=3;
+	public static final int candidate_paths=3;
 }

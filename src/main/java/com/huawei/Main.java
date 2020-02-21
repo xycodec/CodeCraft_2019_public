@@ -2,7 +2,7 @@ package com.huawei;
 
 import org.apache.log4j.Logger;
 
-import com.huawei.graph.graph;
+import com.huawei.graph.Graph;
 
 public class Main {
     private static final Logger logger = Logger.getLogger(Main.class);
@@ -26,7 +26,7 @@ public class Main {
         logger.info("start read input files");
 
         // TODO: calc
-        graph.calc4(carPath,roadPath,crossPath,presetAnswerPath,answerPath);
+        Graph.calc4(carPath,roadPath,crossPath,presetAnswerPath,answerPath);
         // TODO: write answer.txt
         logger.info("Start write output file");
 
